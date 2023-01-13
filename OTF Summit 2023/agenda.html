@@ -4,15 +4,33 @@
         table {
             font-family: Arial, Helvetica, sans-serif;
             border-collapse: collapse;
-            width: 100%
+            width: 75%
         }
 
         .table-td, .table-th {
             border: 1px solid black;
             text-align: left;
+            width: 25%;
+            padding: 8px;
+        }
+
+        .table-long {
+            
+            border: 1px solid black;
+            text-align: center;
+            width: 25%;
+            padding: 8px;
+        
+        }
+        
+
+        .short {
+            border: 1px solid black;
+            text-align: left;
             width: 15%;
             padding: 8px;
         }
+        
 
         th {
             color: #2962ad;
@@ -40,45 +58,67 @@
 </head>
     <table>
         <tr>
-          <th class="table-th" >Time</th>
-          <th class="table-th">Ladybird (1 & 2)</th>
-          <th class="table-th">Ladybird 3</th>
-          <th class="table-th">Ladybird Studio</th>
-          <th class="table-th">The Republic</th>
+          <th class="short" >Time</th>
+          <!-- <th class="table-th">Ladybird (1 & 2)</th> -->
+          <th class="table-th">Session Block 1</th>
+          <th class="table-th">Session Block 2</th>
+          <th class="table-th">Session Block 3</th>
         </tr>
         <tr>
-          <td class="table-td">8:00 AM - 10:00 AM</td>
-          <td class="table-td">
+          <td class="short">8:00 AM - 10:00 AM</td>
+          <td class="table-long" colspan="4">
             <h3>Breakfast + Registration</h3>
+            <h4><i>Room: Ladybird 1 & 2</i></h4>
             <p>Breakfast and coffee will be available. Get caffeinated and start meeting folks before the day's events kick off.</p>
             </td>
-          <td class="empty"></td>
-          <td class="empty"></td>
-          <td class="empty"></td>
+          
+ 
         </tr>
         <tr>
           <td class="table-td">10:00 AM - 11:00 AM</td>
-          <td class="table-td">
-            <p>Meeting, Working, and Eating Space</p>
-          </td>
-          <td class="table-td">
+          <td class="table-long" colspan="4">
             <h3>Welcome to the Summit!</h3>
+            <h4><i>Room: Ladybird 3</i></h4>
             <p>Welcome to the OTF Summit! In this opening session, we will provide a re-introduction to OTF, the team, and our hopes for tthis week's Summit!</p>
           </td>
-          <td class="empty"></td>
-          <td class="empty"></td>
+          
         </tr>
         <tr>
             <td class="table-td">11:00 AM - 11:30 AM</td>
-            <td class="table-td">
-                <p>Meeting, Working, and Eating Space</p>
-            </td>
-            <td class="table-td">
+            <td class="table-long" colspan="4">
                 <h3>What's On: Day One</h3>
+                <h4><i>Room: Ladybird 3</i></h4>
             <p>An overview of Day One's Events and Activities</p>
             </td>
-            <td class="empty"></td>
-          <td class="empty"></td>
+            
+        </tr>
+        <tr>
+            <td class="short">12:00 PM - 1:30 PM</td>
+            <td class="table-long" colspan="4">
+              <h3>Lunch</h3>
+              <h4><i>Room: Ladybird 1 & 2</i></h4>
+              <p>Grab some lunch, catch up, and get ready for the afternoon's sessions!</p>
+              </td> 
+          </tr>
+          <tr>
+            <td class="table-td">1:30 PM - 2:30 PM</td>
+            <td class="table-td">
+                <h3>Government Regulation of VPNs: An Emerging Trend</h3>
+                <h4><i>Room: Ladybird 3</i></h4>
+            <p>Description TBD</p>
+            </td>
+            <td class="table-td">
+                <h3>Measurement Workshop</h3>
+                <h4><i>Room: Ladybird Studio</i></h4>
+            <p>Description TBD</p>
+            </td>
+            <td class="table-td">
+                <h3>Compliance & Contracting Clinic</h3>
+                <h4><i>Room: The Republic</i></h4>
+            <p>The OTF compliance and finance teams will be making themselves available for any questions you may have.</p>
+            </td>
+            
+            
         </tr>
       </table>
 
